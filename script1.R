@@ -15,3 +15,11 @@ test_df <- read.csv("y19-vistaverde-counts-expt1.csv")
 head(test_df,3)
 tail(test_df,3)
 
+# Read in an Excel file
+test_df2 <- read_excel("y19-vistaverde-counts-expt1.xlsx")
+test_df2 # gives tibble rather than plain data frame
+
+# Make datetime into date
+test_df2$StartDate <- as.Date(test_df2$StartDate)
+test_df2$EndDate <- as.Date(test_df2$EndDate)
+test_df2
