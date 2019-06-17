@@ -10,7 +10,6 @@ library(readxl)
 
 # Read in a csv file
 test_df <- read.csv("y19-vistaverde-counts-expt1.csv")
-
 #    Look at first few and last few lines
 head(test_df,3)
 tail(test_df,3)
@@ -23,3 +22,4 @@ test_df2 # gives tibble rather than plain data frame
 test_df2$StartDate <- as.Date(test_df2$StartDate)
 test_df2$EndDate <- as.Date(test_df2$EndDate)
 test_df2
+read_xlsx(y19_vistaverde_counts_expt1)
