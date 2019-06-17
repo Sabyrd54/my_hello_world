@@ -22,4 +22,4 @@ test_df2 # gives tibble rather than plain data frame
 test_df2$StartDate <- as.Date(test_df2$StartDate)
 test_df2$EndDate <- as.Date(test_df2$EndDate)
 test_df2
-read_xlsx(y19_vistaverde_counts_expt1)
+
