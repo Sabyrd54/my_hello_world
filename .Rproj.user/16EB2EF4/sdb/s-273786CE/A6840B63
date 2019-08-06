@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1565119882253.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A6840B63",
+    "lastKnownWriteTime" : 31244169094561842,
+    "last_content_update" : 1565119882253,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "29247571",
+        "caption" : "perez",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=perez&cache_key=29247571",
+        "displayedObservations" : 2726,
+        "environment" : "",
+        "object" : "perez",
+        "preview" : 0,
+        "totalObservations" : 2726,
+        "variables" : 5
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
